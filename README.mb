@@ -1,18 +1,8 @@
-1 - no cleanup, reads the log and outputs the correct html
-
-so it will output the first half of the html and start iterating through the log outputting it line by line.
-when done, output the second half of the html
+This project is to moniter how long and how often I use my Fedora install.
+Its just for fun and is still a work in progress.
 
 
+It has a systemd service file, this will run uptime and gather system info.
+We will also have a Python script to generate the HTML graphs.
 
-2 - legit version, cleans up the log after each run, smarter.
-this one will read in the log and the output html from a previous run.
-
-output a new html file, first output the stanard html, then check for an old html file.
-output any valid values for that, once completed read the uptimer log and start outtting it.
-once finished clean the the uptimer.log
-then output the end of the html file.
-
-done.
-
-extra, have an auto upload to redbrick.
+I'll fill this out more once I complete more of the work, there isn't too much here yet.

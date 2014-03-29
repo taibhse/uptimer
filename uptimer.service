@@ -1,0 +1,11 @@
+[Unit]
+Description=Log Uptime values
+
+[Service]
+Type=oneshot
+RemainAfterExit=true
+ExecStart=/bin/true
+ExecStop=/home/chris/scripts/uptimer
+
+[Install]
+WantedBy=multi-user.target
