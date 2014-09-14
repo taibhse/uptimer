@@ -1,8 +1,5 @@
 This project is to moniter how long and how often I use my Fedora install.
-Its just for fun and is still a work in progress.
-
-
+ 
 It has a systemd service file, this will run uptime and gather system info.
-We will also have a Python script to generate the HTML graphs.
-
+Also planning a Python script to generate the HTML graphs.
 I'll fill this out more once I complete more of the work, there isn't too much here yet.
