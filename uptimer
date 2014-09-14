@@ -1,5 +1,0 @@
-#!/bin/bash
-echo 'Collecting Uptime information'
-date >> /home/chris/scripts/uptimer.log
-uptime >> /home/chris/scripts/uptimer.log
-#use logger to log our script
