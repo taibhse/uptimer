@@ -4,8 +4,8 @@ Description=Log Uptime values
 [Service]
 Type=oneshot
 RemainAfterExit=true
-ExecStart=/bin/true
-ExecStop=/home/chris/scripts/uptimer
+ExecStart=/home/chris/scripts/starttimer
+ExecStop=/home/chris/scripts/stoptimer
 
 [Install]
 WantedBy=multi-user.target
