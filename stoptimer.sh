@@ -1,4 +1,5 @@
 #!/bin/bash
+#This runs at shutdown and collects the difference between start and end Epoch.
 echo 'Collecting Epoch for shutdown'
 DOWN=$(date +%s)
 
