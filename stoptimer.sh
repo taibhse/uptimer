@@ -9,5 +9,8 @@ while read line
 do
     DIFF=$(($DOWN-$line))
     echo 'Outputting Difference of start and stop Epoch values to uptimer-seconds, with a date'
-    echo $DIFF 1>> uptimer-seconds.log && date +%F 1>> uptimer-seconds.log
+    {
+        echo $DIFF 
+        date +%F
+    } 1>> uptimer-seconds.log
 done < $filename
