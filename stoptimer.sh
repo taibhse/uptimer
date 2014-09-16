@@ -10,7 +10,8 @@ do
     DIFF=$(($DOWN-$line))
     echo 'Outputting Difference of start and stop Epoch values to uptimer-seconds, with a date'
     {
-        echo $DIFF 
+        echo -n $DIFF
+        echo -n ":"
         date +%F
     } 1>> uptimer-seconds.log
 done < $filename
