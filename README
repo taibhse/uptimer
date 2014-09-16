@@ -2,4 +2,12 @@ This project is to moniter how long and how often I use my Fedora install.
  
 It has a systemd service file, this will run uptime and gather system info.
 Also planning a Python script to generate the HTML graphs.
-I'll fill this out more once I complete more of the work, there isn't too much here yet.
+
+How it works:
+
+1. uptimer.service runs starttime.sh, this outputs an Epoch to uptimer-start.log (hardcoded, watch out)
+2. run `stoptimer.sh uptimer-seconds.log` to output the difference between the Epoch values and date
+3. run `uptimer.py uptimer-seconds.log` to generate time.html
+
+Need to have useful erroring, log cleanup. On the way.
+
