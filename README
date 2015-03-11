@@ -10,4 +10,5 @@ How it works:
 3. run `uptimer.py uptimer-seconds.log` to generate time.html
 
 Need to have useful erroring, log cleanup. On the way.
+test
 
